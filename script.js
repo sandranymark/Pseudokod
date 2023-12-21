@@ -90,9 +90,8 @@ FUNCTION PlayDoubletsPuzzleGame(startWord, endWord, dictionary):
         !HAS ONE LETTER CHANGED(lastWordInList(guessedWords), nextWord):
             PRINT "Invalid word, please try again."
         ELSE:
-
-        // Add nextWord to the list
-        ADD nextWord TO guessedWords
+            // Add nextWord to the list
+            ADD nextWord TO guessedWords
     END WHILE
 
     PRINT "Congratulations, you are a winer..! You've successfully transformed " + startWord + " into " + endWord + "!"
